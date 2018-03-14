@@ -4,6 +4,9 @@ import heapq
 ps = [ 500, 700, 1000, 1400, 2000, 6000 ]
 
 def find_pair(prices, amount):
+    if len(prices) < 2:
+        return None
+
     i = 0
     j = len(prices)-1
     pair = None
