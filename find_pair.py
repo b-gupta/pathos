@@ -70,7 +70,7 @@ def test():
     print find_n([1, 2, 3, 5, 8, 13], 15, 3)
 
 if __name__ == '__main__':
-    test()
+    #test()
     args = sys.argv[1:]
     filename = args[0]
     amount = int(args[1])
