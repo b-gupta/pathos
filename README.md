@@ -24,6 +24,7 @@ Question 3:
 
 
 # Answers to questions
+```
 1.
 
 As you acquire more users and the volume of messages increases, several issues
@@ -51,3 +52,4 @@ Bonus question is implemented within find_pair
 
 This algorithm will take O(2^n) where n represents the number of x's. For each x
 we branch twice (once for 0 and once for 1).
+```
